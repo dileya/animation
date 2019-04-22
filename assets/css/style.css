@@ -183,9 +183,7 @@ h8 {
     top: 12px;
 }
 @media screen and (min-width:768px) and (max-width:1180px) {
-    .font {
-        font-size: 88px;
-    }
+   
     .closebutton {
         position: absolute;
         top: 20px;
@@ -197,11 +195,6 @@ h8 {
     #popup {
         max-width: 96% !important;
         margin: 1%;
-    }
-    .font {
-        font-size: 2em;
-        text-shadow: 1px 1px 2px black, 0 0 1em #2b00b9;
-        letter-spacing: -1px;
     }
     .get {
         font-size: 15px;
@@ -227,6 +220,13 @@ h8 {
         position: absolute;
         top: 20px;
         right: 20px;
+    }
+}
+@media screen and (max-width:480px) {
+     .font {
+        font-size: 2em;
+        text-shadow: 1px 1px 2px black, 0 0 1em #2b00b9;
+        letter-spacing: -1px;
     }
 }
 
